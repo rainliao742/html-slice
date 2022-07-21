@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css 開始 */
+.container {
+	background: #ccc;
+	margin: 0 auto;
+	max-width:640px;
+	
+}
+
+.body {
+	float: left;
+	width: 424px;
+}
+
+.wrap {
+	float: left;
+	margin: 0 20px 24px 0;
+	height: 96px;
+	width: auto;
+}
+
+.wrap img {
+	float: left;
+	margin: 0 20px 24px 0;
+	display: block;
+	width: 96px;
+	height: 96px;
+}
+
+.wrap p {
+	font-size: 13.8px;
+	line-height: 1.6;
+	display: inline;
+}
+
+h2 {
+	font-size: 20px;
+	display: inline;
+	line-height: 1.6;
+	white-space: nowrap;
+
+}
+
+h6 {
+	font-size: 12px;
+	display: inline;
+	line-height: 1.6;
+	white-space: nowrap;
+}
+
+.pic {
+	width: 216px;
+	height: 216px;
+	float: left;
+}
+
+.pic img {
+	width: 100%;
+}
+
+.text {
+	max-width: 288px;
+	border: 0px solid #000;
+	float: left;
+	box-sizing: border-box;
+}
+
+.footer {
+	height: 120px;
+	width: 100%;
+	clear: both;
+	background: #ddd;
+	position: relative;
+}
+
+.footer span {
+	width: 100%;
+	text-align: center;
+	line-height: 1.5;
+	font-size: 16px;
+	height: 1.5em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto
+}
+
