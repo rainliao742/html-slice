@@ -1,0 +1,375 @@
+/*google icons*/
+		.material-icons.md-18 {
+			font-size: 18px;
+		}
+
+		.material-icons.md-24 {
+			font-size: 24px;
+		}
+
+		.material-icons.md-36 {
+			font-size: 36px;
+		}
+
+		.material-icons.md-48 {
+			font-size: 48px;
+		}
+
+		.material-icons.md-60 {
+			font-size: 60px;
+		}
+
+
+/* 首頁、選單*/
+		nav .logo {
+			background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/logo-white.png?raw=true') no-repeat center center;
+			background-size: contain;
+			min-width: 5rem;
+			transition: all 0.2s;
+			margin: auto 0 auto 20px;
+		}
+
+		nav .logo.active {
+			margin: 30px 0 30px calc(50% - 2.5rem);
+			left: 0;
+		}
+
+		nav a {
+			width: 100%;
+			height: 100%;
+		}
+
+		nav .menu_btn {
+			width: 30px;
+			height: 20px;
+			/* background-color: white; */
+			cursor: pointer;
+		}
+
+		nav .menu_btn span {
+			width: 30px;
+			height: 2px;
+			background-color: white;
+			position: absolute;
+			transition: all 0.2s;
+
+		}
+
+		nav .menu_btn span:first-child {
+			top: 0;
+			left: 0;
+		}
+
+		nav .menu_btn span:nth-child(2) {
+			top: calc(50% - 1px);
+			left: 0;
+		}
+
+		nav .menu_btn span:last-child {
+			bottom: 0;
+			left: 0;
+		}
+
+		nav .menu_btn.active span:nth-child(2) {
+			height: 0;
+		}
+
+		nav .menu_btn.active span:first-child {
+			transform: rotate(45deg);
+			top: 50%;
+		}
+
+		nav .menu_btn.active span:last-child {
+			transform: rotate(-45deg);
+			top: 50%;
+		}
+
+		ul.links.show {
+			display: flex;
+			animation: fadeIn 0.5s ease-in;
+			transition: all 0.2s
+		}
+
+		@keyframes fadeIn {
+			0% {
+				opacity: 0;
+			}
+
+			50% {
+				opacity: .5;
+			}
+
+			100% {
+				opacity: 1;
+			}
+		}
+
+		.main-banner {
+			height: 787px;
+			background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true') no-repeat center center;
+			background-size: cover;
+		}
+
+		.main-banner .container {
+			margin: 0 auto;
+			/* max-width: auto; */
+		}
+		
+
+		.features,
+		.classical,
+		.joint-name,
+		.guest-recommend,
+		.contact {
+			height: auto;
+			padding: 80px 0 0 0;
+		}
+
+		.classical .pic {
+			width: 416px;
+			height: 416px;
+		}
+
+		.classical img {
+			width: 100%;
+		}
+
+		.joint-name {
+			background:
+				url('https://cdn.discordapp.com/attachments/997518960511680675/1001180025372024863/bg.png') no-repeat center center;
+			background-size: cover;
+		}
+
+		.joint-name .pic {
+			min-height: 238px;
+		}
+
+		.guest-recommend .date {
+			font-size: 14;
+			color: #707070;
+			margin-top: 72px;
+		}
+
+		.contact form {
+			max-width: 640px;
+		}
+
+		footer .social a {
+			display: block;
+			width: 3rem;
+			height: 3rem;
+			margin: 0 2rem 0 0;
+		}
+
+		footer .social li:last-child a {
+			margin: 0;
+		}
+		@media(max-width: 1024px) {
+			.container{
+				max-width:1024px !important;
+				margin:0 auto;
+			}
+		}
+		@media(max-width: 768px) {
+			.container {
+				max-width: 768px !important;
+			}
+			.main-banner {
+				height: 787px;
+				background:
+					url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true') no-repeat center center;
+				background-size: auto 100%;
+			}
+
+			.classical .pic {
+				width: 100%;
+				height: auto;
+			}
+		}
+
+		@media(max-width: 639px) {
+			.container {
+				margin:0 auto;
+				max-width: 639px !important;
+			}
+			.links {
+				display: none;
+			}
+		}
+
+		@media(max-width: 500px) {
+
+			.logo {
+				margin: 30px 0 0 20px;
+
+			}
+
+			.logo.active {
+				margin: 30px auto;
+			}
+
+			.container {
+				max-width: 96% !important;
+				margin: 0 auto;
+			}
+
+			.main-banner {
+				height: 396px;
+				background:
+					url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true') no-repeat center center;
+				background-size: 100% auto;
+			}
+
+			footer .social a {
+				display: block;
+				width: 24px;
+				height: 24px;
+				margin: 0 0.5rem 0 0;
+			}
+
+			.material-icons.md-48 {
+				font-size: 24px !important;
+			}
+
+			.features,
+			.classical,
+			.joint-name,
+			.guest-recommend,
+			.contact {
+				height: auto;
+				padding: 40px 0 0 0;
+			}
+			
+		}
+
+		@media(max-width: 375px) {
+			.container {
+				max-width: 100% !important;
+				margin:0 auto;
+			}
+		}
+
+/* product */
+		.prev.active {
+			background-color: #F2F2F2;
+		}
+
+		.product {
+			width: 25%;
+			padding: 0 24px;
+			margin-bottom: 80px;
+		}
+
+		.product:nth-child(4n) {
+			padding: 0 0 0 24px;
+		}
+
+		.product:first-child {
+			padding: 0 24px 0 0;
+		}
+
+		.product:nth-child(4n + 1) {
+			padding: 0 24px 0 0;
+		}
+
+		a.pageNum.active {
+			background-color: black !important;
+			color: white !important;
+		}
+
+		@media(max-width: 1280px) {
+			.product {
+				width: 33.333%;
+				padding: 0 24px;
+				margin-bottom: 80px;
+			}
+
+			.product:nth-child(3n) {
+				padding: 0 0 0 24px;
+			}
+
+			.product:nth-child(4n) {
+				padding: 0 24px 0 24px;
+			}
+
+			.product:first-child {
+				padding: 0 24px 0 0;
+			}
+
+			.product:nth-child(4n + 1) {
+				padding: 0 24px 0 24px;
+			}
+
+			.product:nth-child(3n + 1) {
+				padding: 0 24px 0 0;
+			}
+
+			.product:nth-child(9n) {
+				padding: 0 0 0 24px;
+			}
+
+			.product:nth-child(12n) {
+				padding: 0 0 0 24px;
+			}
+		}
+
+		@media(max-width: 960px) {
+			.product {
+				width: 50%;
+				padding: 0;
+			}
+
+			.product:nth-child(2n) {
+				padding: 0 0 0 0;
+			}
+
+			.product:nth-child(3n) {
+				padding: 0 0 0 0;
+			}
+
+			.product:nth-child(4n) {
+				padding: 0 0 0 0;
+			}
+
+			.product:first-child {
+				padding: 0 0 0 0;
+			}
+
+			.product:nth-child(4n + 1) {
+				padding: 0 0 0 0;
+			}
+
+			.product:nth-child(3n + 1) {
+				padding: 0 0 0 0;
+			}
+
+			.product:nth-child(9n) {
+				padding: 0 0 0 0;
+			}
+
+			.product:nth-child(12n) {
+				padding: 0 0 0 0;
+			}
+
+			.product:nth-child(even) {
+				padding: 0 0 0 12px;
+			}
+
+			.product:nth-child(odd) {
+				padding: 0 12px 0 0;
+			}
+		}
+
+		@media(max-width: 640px) {
+			.product {
+				width: 100%;
+			}
+
+			.product:nth-child(even) {
+				padding: 0;
+			}
+
+			.product:nth-child(odd) {
+				padding: 0;
+			}
+		}

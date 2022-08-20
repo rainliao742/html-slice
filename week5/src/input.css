@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+		* {
+			border: 0px solid #000;
+		}
+		section {
+			margin: 0 auto;
+		}
+		h1 {
+			font-size: 64px;
+			font-weight: bold;
+		}
+
+		h2 {
+			font-size: 48px;
+			text-align: center;
+			font-weight: bold;
+			color: #650300;
+		}
+
+		h3 {
+			font-size: 36px;
+		}
+
+		h5 {
+			font-size: 24px;
+			text-align: center;
+			font-weight: bold;
+			color: #650300;
+		}
+		p {
+			font-size: 16px;
+			text-align: justify;
+		}
+		label, input{
+			display:inline-block;
+			width: 100%;
+		}
+		label{
+			margin-bottom:0.2rem;
+		}
+		input{
+			display: block;
+			margin-bottom:1rem;
+		}
+		textarea{
+			width: 100%;
+			margin-bottom:1rem;
+		}
+		footer{
+			color:#fff;
+		}
+
+
+}
+
+@layer utilities{
+	.container {
+		margin: 0 auto;
+		/* max-width: 1280px; */
+	}
+
+	.g-pink {
+		color: #FBF2f2;
+	}
+
+	.g-bg-pink {
+		background-color: #FBF2f2;
+	}
+
+	.g-red {
+		color: #AA0601;
+	}
+
+	.g-bg-red {
+		background-color: #AA0601;
+	}
+
+	.g-dark-red {
+		color: #650300;
+	}
+
+	.g-bg-dark-red {
+		background-color: #650300;
+	}
+	.guest-recommend .pic img{
+		/* min-width:306px;
+		min-height:306px; */
+	}
+	footer a{
+		transition:all 0.2s ease-in-out;
+	}
+	footer a:hover{
+		color:#ddd;
+	}
+}
+
+@layer components{
+
+}
