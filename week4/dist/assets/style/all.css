@@ -742,11 +742,11 @@ select {
 .mb-2 {
   margin-bottom: 0.5rem;
 }
-.mb-8 {
-  margin-bottom: 2rem;
-}
 .mb-4 {
   margin-bottom: 1rem;
+}
+.ml-0 {
+  margin-left: 0px;
 }
 .mb-0 {
   margin-bottom: 0px;
@@ -778,6 +778,9 @@ select {
 .mt-20 {
   margin-top: 5rem;
 }
+.mb-8 {
+  margin-bottom: 2rem;
+}
 .mr-2 {
   margin-right: 0.5rem;
 }
@@ -792,21 +795,6 @@ select {
 }
 .mr-\[2\%\] {
   margin-right: 2%;
-}
-.mr-0 {
-  margin-right: 0px;
-}
-.ml-1 {
-  margin-left: 0.25rem;
-}
-.ml-3 {
-  margin-left: 0.75rem;
-}
-.ml-6 {
-  margin-left: 1.5rem;
-}
-.ml-0 {
-  margin-left: 0px;
 }
 .box-border {
   box-sizing: border-box;
@@ -888,6 +876,9 @@ select {
 }
 .w-\[32\%\] {
   width: 32%;
+}
+.max-w-\[550px\] {
+  max-width: 550px;
 }
 .cursor-pointer {
   cursor: pointer;
@@ -1029,6 +1020,10 @@ select {
 }
 .p-5 {
   padding: 1.25rem;
+}
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 .px-\[36px\] {
   padding-left: 36px;
@@ -1326,18 +1321,20 @@ footer a:hover {
   --tw-ring-color: rgb(107 114 128 / var(--tw-ring-opacity));
 }
 
-@media (min-width: 1024px) {
-
-  .lg\:justify-start {
-    justify-content: flex-start;
-  }
-}
-
 @media (max-width: 1279px) {
+
+  .-xl\:mb-8 {
+    margin-bottom: 2rem;
+  }
 
   .-xl\:px-\[36px\] {
     padding-left: 36px;
     padding-right: 36px;
+  }
+
+  .-xl\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
@@ -1355,18 +1352,6 @@ footer a:hover {
     margin-right: 2%;
   }
 
-  .-lg\:mr-1 {
-    margin-right: 0.25rem;
-  }
-
-  .-lg\:mr-3 {
-    margin-right: 0.75rem;
-  }
-
-  .-lg\:ml-3 {
-    margin-left: 0.75rem;
-  }
-
   .-lg\:w-\[48\%\] {
     width: 48%;
   }
@@ -1377,10 +1362,6 @@ footer a:hover {
 
   .-lg\:flex-wrap {
     flex-wrap: wrap;
-  }
-
-  .-lg\:justify-start {
-    justify-content: flex-start;
   }
 
   .-lg\:justify-center {
@@ -1416,10 +1397,6 @@ footer a:hover {
     margin-left: 1.5rem;
   }
 
-  .-md\:ml-0 {
-    margin-left: 0px;
-  }
-
   .-md\:w-1\/2 {
     width: 50%;
   }
@@ -1430,10 +1407,6 @@ footer a:hover {
 
   .-md\:flex-wrap {
     flex-wrap: wrap;
-  }
-
-  .-md\:justify-center {
-    justify-content: center;
   }
 
   .-md\:bg-\[url\(\'https\:\/\/github\.com\/hexschool\/2022-web-layout-training\/blob\/main\/week3-4\/product-header-sm-1\.png\?raw\=true\'\)\] {
