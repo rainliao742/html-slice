@@ -104,8 +104,7 @@
 		}
 
 		.classical .pic {
-			width: 416px;
-			height: 416px;
+			width: 100%;
 		}
 
 		.classical img {
@@ -116,10 +115,6 @@
 			background:
 				url('https://cdn.discordapp.com/attachments/997518960511680675/1001180025372024863/bg.png') no-repeat center center;
 			background-size: cover;
-		}
-
-		.joint-name .pic {
-			/* min-height: 238px; */
 		}
 
 		.guest-recommend .date {
@@ -141,6 +136,26 @@
 
 		footer .social li:last-child a {
 			margin: 0;
+		}
+		@media(max-width: 1536px) {
+			.container {
+				max-width: 1280px !important;
+				margin: 0 auto;
+			}
+		}
+
+		@media(max-width: 1280px) {
+			.container {
+				max-width: 1024px !important;
+				margin: 0 auto;
+			}
+		}
+
+		@media(max-width: 1024px) {
+			.container {
+				max-width: 1024px !important;
+				margin: 0 auto;
+			}
 		}
 		@media(max-width: 1024px) {
 			.container{

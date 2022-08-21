@@ -901,12 +901,12 @@ footer{
   margin-bottom: 0.5rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.ml-0 {
+  margin-left: 0px;
 }
 
 .mb-0 {
@@ -947,6 +947,10 @@ footer{
 
 .mt-20 {
   margin-top: 5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .mr-2 {
@@ -1051,6 +1055,10 @@ footer{
 
 .w-6 {
   width: 1.5rem;
+}
+
+.max-w-\[550px\] {
+  max-width: 550px;
 }
 
 .cursor-pointer {
@@ -1225,6 +1233,11 @@ footer{
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .px-\[36px\] {
@@ -1536,9 +1549,18 @@ footer a:hover{
 }
 
 @media (max-width: 1279px) {
+  .-xl\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
   .-xl\:px-\[36px\] {
     padding-left: 36px;
     padding-right: 36px;
+  }
+
+  .-xl\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
@@ -1555,6 +1577,10 @@ footer a:hover{
     flex-wrap: wrap;
   }
 
+  .-lg\:justify-center {
+    justify-content: center;
+  }
+
   .-lg\:px-\[px\] {
     padding-left: px;
     padding-right: px;
@@ -1565,10 +1591,6 @@ footer a:hover{
   .-md\:mx-6 {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-  }
-
-  .-md\:mr-0 {
-    margin-right: 0px;
   }
 
   .-md\:mb-6 {
@@ -1593,10 +1615,6 @@ footer a:hover{
 
   .-md\:flex-wrap {
     flex-wrap: wrap;
-  }
-
-  .-md\:justify-center {
-    justify-content: center;
   }
 
   .-md\:bg-\[url\(\'https\:\/\/github\.com\/hexschool\/2022-web-layout-training\/blob\/main\/week3-4\/product-header-sm-1\.png\?raw\=true\'\)\] {
@@ -1684,16 +1702,8 @@ footer a:hover{
     height: 136px;
   }
 
-  .-sm\:min-h-\[100px\] {
-    min-height: 100px;
-  }
-
   .-sm\:min-h-\[80px\] {
     min-height: 80px;
-  }
-
-  .-sm\:min-h-\[50px\] {
-    min-height: 50px;
   }
 
   .-sm\:w-full {
@@ -1710,6 +1720,10 @@ footer a:hover{
 
   .-sm\:flex-wrap {
     flex-wrap: wrap;
+  }
+
+  .-sm\:justify-center {
+    justify-content: center;
   }
 
   .-sm\:border {
@@ -1729,9 +1743,9 @@ footer a:hover{
     padding-right: 0;
   }
 
-  .-sm\:px-\[36px\] {
-    padding-left: 36px;
-    padding-right: 36px;
+  .-sm\:px-\[0px\] {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .-sm\:px-\[12px\] {
@@ -1740,11 +1754,6 @@ footer a:hover{
   }
 
   .-sm\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .-sm\:px-\[0px\] {
     padding-left: 0px;
     padding-right: 0px;
   }
