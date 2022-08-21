@@ -850,32 +850,8 @@ footer{
   left: 0px;
 }
 
-.top-12 {
-  top: 3rem;
-}
-
 .right-0 {
   right: 0px;
-}
-
-.top-10 {
-  top: 2.5rem;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
-.bottom-\[-10px\] {
-  bottom: -10px;
-}
-
-.bottom-\[0px\] {
-  bottom: 0px;
-}
-
-.top-\[50px\] {
-  top: 50px;
 }
 
 .float-right {
@@ -1017,10 +993,6 @@ footer{
   height: 84px;
 }
 
-.h-60 {
-  height: 15rem;
-}
-
 .h-4 {
   height: 1rem;
 }
@@ -1033,24 +1005,12 @@ footer{
   height: 1.5rem;
 }
 
-.h-2 {
-  height: 0.5rem;
-}
-
-.h-\[8px\] {
-  height: 8px;
-}
-
-.min-h-\[0\] {
-  min-height: 0;
+.min-h-\[50px\] {
+  min-height: 50px;
 }
 
 .min-h-\[3em\] {
   min-height: 3em;
-}
-
-.min-h-\[auto\] {
-  min-height: auto;
 }
 
 .w-20 {
@@ -1165,10 +1125,6 @@ footer{
   border-left-width: 1px;
 }
 
-.border-b-\[8px\] {
-  border-bottom-width: 8px;
-}
-
 .border-gl-dark-red {
   --tw-border-opacity: 1;
   border-color: rgb(101 3 0 / var(--tw-border-opacity));
@@ -1192,11 +1148,6 @@ footer{
 .border-gray-700 {
   --tw-border-opacity: 1;
   border-color: rgb(55 65 81 / var(--tw-border-opacity));
-}
-
-.border-b-white {
-  --tw-border-opacity: 1;
-  border-bottom-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-gl-pink {
@@ -1226,11 +1177,6 @@ footer{
 .bg-\[\#B75929\] {
   --tw-bg-opacity: 1;
   background-color: rgb(183 89 41 / var(--tw-bg-opacity));
-}
-
-.bg-slate-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'https\:\/\/github\.com\/hexschool\/2022-web-layout-training\/blob\/main\/week3-4\/product-header-1\.png\?raw\=true\'\)\] {
@@ -1271,10 +1217,6 @@ footer{
   padding: 1rem;
 }
 
-.p-0 {
-  padding: 0px;
-}
-
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
@@ -1300,6 +1242,11 @@ footer{
   padding-right: 11rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1308,16 +1255,6 @@ footer{
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.py-0 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
 }
 
 .pb-20 {
@@ -1338,18 +1275,6 @@ footer{
 
 .pb-8 {
   padding-bottom: 2rem;
-}
-
-.pt-6 {
-  padding-top: 1.5rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
-.pb-6 {
-  padding-bottom: 1.5rem;
 }
 
 .text-center {
@@ -1391,16 +1316,6 @@ footer{
 
 .text-\[32px\] {
   font-size: 32px;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .font-bold {
@@ -1543,22 +1458,10 @@ footer a:hover{
   width: 100%;
 }
 
-.before\:bg-slate-500::before {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
-}
-
 .before\:bg-white::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.before\:bg-gl-red::before {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(170 6 1 / var(--tw-bg-opacity));
 }
 
 .before\:transition::before {
@@ -1572,16 +1475,6 @@ footer a:hover{
 
 .before\:content-\[\'\'\]::before {
   --tw-content: '';
-  content: var(--tw-content);
-}
-
-.before\:content-\[\'\*\'\]::before {
-  --tw-content: '*';
-  content: var(--tw-content);
-}
-
-.before\:content-\[\'\"\"\'\]::before {
-  --tw-content: '""';
   content: var(--tw-content);
 }
 
@@ -1604,15 +1497,6 @@ footer a:hover{
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:border-b-\[8px\]:hover {
-  border-bottom-width: 8px;
-}
-
-.hover\:border-b-gl-red:hover {
-  --tw-border-opacity: 1;
-  border-bottom-color: rgb(170 6 1 / var(--tw-border-opacity));
 }
 
 .hover\:bg-gl-dark-red:hover {
@@ -1651,12 +1535,6 @@ footer a:hover{
   --tw-ring-color: rgb(107 114 128 / var(--tw-ring-opacity));
 }
 
-.focus\:before\:bg-gl-red:focus::before {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(170 6 1 / var(--tw-bg-opacity));
-}
-
 @media (max-width: 1279px) {
   .-xl\:px-\[36px\] {
     padding-left: 36px;
@@ -1691,6 +1569,10 @@ footer a:hover{
 
   .-md\:mr-0 {
     margin-right: 0px;
+  }
+
+  .-md\:mb-6 {
+    margin-bottom: 1.5rem;
   }
 
   .-md\:mr-6 {
@@ -1748,10 +1630,6 @@ footer a:hover{
     right: 36px;
   }
 
-  .-sm\:right-0 {
-    right: 0px;
-  }
-
   .-sm\:right-\[-20px\] {
     right: -20px;
   }
@@ -1806,6 +1684,18 @@ footer a:hover{
     height: 136px;
   }
 
+  .-sm\:min-h-\[100px\] {
+    min-height: 100px;
+  }
+
+  .-sm\:min-h-\[80px\] {
+    min-height: 80px;
+  }
+
+  .-sm\:min-h-\[50px\] {
+    min-height: 50px;
+  }
+
   .-sm\:w-full {
     width: 100%;
   }
@@ -1839,9 +1729,9 @@ footer a:hover{
     padding-right: 0;
   }
 
-  .-sm\:px-\[0px\] {
-    padding-left: 0px;
-    padding-right: 0px;
+  .-sm\:px-\[36px\] {
+    padding-left: 36px;
+    padding-right: 36px;
   }
 
   .-sm\:px-\[12px\] {
@@ -1850,6 +1740,11 @@ footer a:hover{
   }
 
   .-sm\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .-sm\:px-\[0px\] {
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -1896,30 +1791,17 @@ footer a:hover{
     margin-top: 2.5rem;
   }
 
-  .-xs\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
-  .-xs\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .-xs\:text-\[24px\] {
-    font-size: 24px;
-  }
-
-  .-xs\:text-\[14px\] {
-    font-size: 14px;
-  }
-
   .-xs\:text-\[30px\] {
     font-size: 30px;
   }
 
   .-xs\:text-\[20px\] {
     font-size: 20px;
+  }
+
+  .-xs\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .-xs\:leading-\[33px\] {
@@ -1936,10 +1818,6 @@ footer a:hover{
     position: relative;
   }
 
-  .-xxs\:right-\[0\] {
-    right: 0;
-  }
-
   .-xxs\:right-\[-36px\] {
     right: -36px;
   }
@@ -1948,37 +1826,29 @@ footer a:hover{
     top: 2.5rem;
   }
 
-  .-xxs\:mb-40 {
-    margin-bottom: 10rem;
-  }
-
-  .-xxs\:mb-24 {
-    margin-bottom: 6rem;
-  }
-
   .-xxs\:mb-28 {
     margin-bottom: 7rem;
-  }
-
-  .-xxs\:w-1\/2 {
-    width: 50%;
   }
 
   .-xxs\:w-full {
     width: 100%;
   }
 
-  .-xxs\:break-words {
-    overflow-wrap: break-word;
+  .-xxs\:w-1\/2 {
+    width: 50%;
   }
 
-  .-xxs\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+  .-xxs\:break-words {
+    overflow-wrap: break-word;
   }
 
   .-xxs\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
+  }
+
+  .-xxs\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }
